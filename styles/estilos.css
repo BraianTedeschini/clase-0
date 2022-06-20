@@ -96,6 +96,10 @@ nav li:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-1%);
 }
+nav li a{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.5);
+}
 
 #content{
     font-family: initial;
@@ -110,17 +114,23 @@ ul {
   }
 
 footer{
-    flex: 1;
-    
-    padding: 0.5rem; 
-    margin: 1px;
-    color: azure;
+    display: flex; 
+    margin: 0px;
+    text-align: center;
+    color: #cb3600fa;
     background-color: rgba(0, 0, 0, 0.578);
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(5rem);
     align-items: flex-end;
-    
   }
+footer a{
+    color: #cb3600fa;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    flex-direction: row;
+}
 
 .row row-cols-1 row-cols-md-3 g-4{
     width: 100%;
