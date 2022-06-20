@@ -93,19 +93,19 @@ nav li{
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #fc490894;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
     justify-items: space-around;
 }
-nav li:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-1%);
-}
+
 nav li a{
     color: #fff;
     text-shadow: rgba(0,0,0,0.5);
+    border-radius: 1%;
+}
+nav li a:hover{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
 }
 
 #content{
@@ -137,6 +137,13 @@ footer a{
     text-decoration: none;
     font-style: normal;
     flex-direction: row;
+}
+footer svg{
+    padding-bottom: 1%;
+    float: inline-start;
+}
+footer svg a{
+    padding-bottom: 15%;
 }
 
 .row row-cols-1 row-cols-md-3 g-4{
